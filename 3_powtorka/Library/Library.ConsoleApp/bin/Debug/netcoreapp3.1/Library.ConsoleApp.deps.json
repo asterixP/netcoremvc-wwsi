@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Library.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Library.Domain": "1.0.0",
+          "Library.Persistence": "1.0.0"
+        },
+        "runtime": {
+          "Library.ConsoleApp.dll": {}
+        }
+      },
+      "Library.Domain/1.0.0": {
+        "runtime": {
+          "Library.Domain.dll": {}
+        }
+      },
+      "Library.Persistence/1.0.0": {
+        "dependencies": {
+          "Library.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Library.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
